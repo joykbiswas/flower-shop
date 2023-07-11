@@ -7,21 +7,15 @@
 .banner{
    background: rgba(229, 84, 115, 0.10); 
    display: flex;
-    gap: 90px;
+    gap: 70px;
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
   
 }
-.banner-docu{
-    /* display: flex;
-    gap: 90px;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 20px; */
-}
+
 .banner-title{
-    font-size:60px;
+    font-size:55px;
     color: #272727;
     padding-bottom: 32px;
 }
@@ -73,9 +67,7 @@
     border-radius: 170px 170px 0px 0px;
     width: 300px;
     height: 410px;
-    /* height: 540px; */
-    /* justify-content: center; */
-   padding-left: 25px; 
+    padding-left: 25px; 
     /* margin: auto; */
 }
 .flower-tree p{
@@ -110,8 +102,113 @@
     margin: auto;
     padding: 15px;
     text-align: center;
- }
 
+ }
+  /* Production section starts */
+  .products{
+    padding: 40px 0px;
+  }
+  .heading{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
+
+  }
+  .primary{
+    color:  rgb(241, 17, 65);
+  }
+  .box-img{
+    width: 300px;
+    height: 300px;
+    
+
+  }
+  .box-container{
+
+  }
+  .box{
+    
+    gap: 40px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #2727270d;
+
+  }
+  .content{
+    text-align: center;
+    font-size: 18px;
+  }
+
+  /* Deal section starts */
+  .deal-title{
+    font-size: 35px;
+
+  }
+  .deal-description{
+    width: 600px;
+    padding: 20px;
+  }
+  .deal-text{
+    padding-left: 40px;
+    text-align: center;
+    justify-content: center;
+  }
+  .hot-deal{
+    display: flex;
+    gap: 40px;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: space-around;
+    padding: 80px;
+    align-items: center;
+    margin: 150px  0px;
+  }
+ /* INSTAGRAM Starts */
+ .name-title{
+    font-size: 38px;
+ }
+ #description{
+    color: #272727;
+    padding: 15px;
+ }
+.instagram-text{
+    text-align: center;
+    justify-content: center;
+    margin: 80px;
+
+
+ }
+ .instagram-img{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+ }
+ .instagram{
+    margin: 80px 0px;
+ }
+  /* Contact section starts */
+  .contact-box{
+    background-image: url(./img/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 120px 0px;
+
+  }
+  
+   .contact-box input[type=search] {
+    padding: 15px 118px;
+    border-radius: 8px;
+    background: #FFF;
+    margin: 40px;
+    border: none;
+   }
     
 
 
