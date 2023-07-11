@@ -24,7 +24,8 @@
    width: 600px;
 }
 .banner-text{
-    margin: 80px;
+    margin: 120px;
+    padding-left: 60px;
 
 }
 .btn{
@@ -58,15 +59,15 @@
     font-size: 24px;
     width: 50%;
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 /* Flowers collection */
 .flower-tree{
     background: rgba(167, 33, 98, 0.15);
     border-radius: 170px 170px 0px 0px;
     width: 300px;
-    height: 410px;
+    height: 440px;
     padding-left: 25px; 
     /* margin: auto; */
 }
@@ -88,7 +89,7 @@
     margin: auto;
     justify-content: space-around;
     align-items: center;
-    padding: 130px;
+    padding: 120px;
 
 }
  /* group section start here */
@@ -167,6 +168,10 @@
     align-items: center;
     margin: 150px  0px;
   }
+  .pot-img{
+    width: 300px;
+    height: 340px;
+  }
  /* INSTAGRAM Starts */
  .name-title{
     font-size: 38px;
@@ -181,6 +186,10 @@
     margin: 80px;
 
 
+ }
+ .cover{
+    width: 280px;
+    height: 280px;
  }
  .instagram-img{
     display: flex;
