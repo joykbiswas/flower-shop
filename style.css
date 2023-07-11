@@ -6,22 +6,28 @@
 }
 .banner{
    background: rgba(229, 84, 115, 0.10); 
-  
-}
-.banner-docu{
-    display: flex;
-    gap: 50px;
+   display: flex;
+    gap: 90px;
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
+  
+}
+.banner-docu{
+    /* display: flex;
+    gap: 90px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px; */
 }
 .banner-title{
-    font-size:80px;
+    font-size:60px;
     color: #272727;
     padding-bottom: 32px;
 }
 .banner-description{
    padding-bottom: 20px;
+   width: 600px;
 }
 .banner-text{
     margin: 80px;
@@ -35,9 +41,14 @@
 }
 .banner-img{
     margin-right: 150px;
-    /* padding-top: 26px; */
+    padding-top: 36px;
    
 }
+.flower{
+    width: 480px;
+    height: 600px;
+}
+ /* main section start  */
 /* Feature section start here */
 .feature-tree{
     color: #272727;
@@ -60,11 +71,12 @@
 .flower-tree{
     background: rgba(167, 33, 98, 0.15);
     border-radius: 170px 170px 0px 0px;
-    width: 400px;
-    height: 540px;
+    width: 300px;
+    height: 410px;
+    /* height: 540px; */
     /* justify-content: center; */
-   padding-left: 40px; */
-    margin: auto;
+   padding-left: 25px; 
+    /* margin: auto; */
 }
 .flower-tree p{
     padding-left: 100px;
@@ -74,8 +86,9 @@
 .tree{
    
     width: 300px;
+    height: 300px;
     padding-top: 110px;
-    padding-right: 10px;
+    /* padding-right: 10px; */
 }
 .flowers{
     display: flex;
@@ -83,15 +96,21 @@
     margin: auto;
     justify-content: space-around;
     align-items: center;
+    padding: 130px;
 
 }
-.flower-container p{
-   
-
-}
-.flowers p{
-  
-}
+ /* group section start here */
+ .group-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2727270d;
+    color: rgba(39, 39, 39, 0.8);
+    /* color: #272727; */
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+ }
 
     
 
